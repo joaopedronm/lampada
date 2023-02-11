@@ -1,0 +1,39 @@
+* {
+    font-family: poppins;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elements p {
+    font-size: .7em;
+}
+
+button {
+    width: 80px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#fix {
+    width: 160px;
+    background-color: #22f36b;
+    border: 0.5px solid #333333
+}
+
+#fix:hover {
+    background-color: #19e661;
+}
