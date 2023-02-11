@@ -9,19 +9,19 @@ function isLampBroken() {
 
 function lampOn() {
     if(!isLampBroken()) {
-        lamp.src = 'ligada.jpg'
+        lamp.src = '/img/ligada.jpg'
     }
 
 }
 
 function lampOff() {
     if(!isLampBroken()) {
-        lamp.src = 'desligada.jpg'
+        lamp.src = '/img/desligada.jpg'
     }
 }
 
 function lampBroken() {
-    lamp.src = 'quebrada.jpg'
+    lamp.src = '/img/quebrada.jpg'
     if(btnFix.style.display === 'none') {
         btnFix.style.display = 'block'
     }
@@ -29,7 +29,7 @@ function lampBroken() {
 
 function fixLamp() {
     if(isLampBroken()) {
-        lamp.src = 'desligada.jpg'
+        lamp.src = '/img/desligada.jpg'
         btnFix.style.display = 'none'
     }
 }
