@@ -5,28 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Lâmpada</title>
+    <title>Lâmpada - Javascript</title>
+    <link rel="icon" type="image/x-icon" href="./img/ada-favicon.png">
 </head>
 <body>
     <header>
-        <h1>VANILLA JS</h1>
+        <div>
+            <h1>LÂMPADA - JAVASCRIPT VANILLA</h1>
+            <h3>Módulo IV - Front-End By Ada</h3>
+        </div>
+        <p>O projeto a seguir traz a imagem de uma lâmpada onde podemos acendê-la, <br>apagá-la, quebrá-la e consertá-la através
+        de botões e funcionalidades configuradas via Javascript.</p>
     </header>
     
     <main>
         <div class="elements">
-            <img src="/img/desligada.jpg" alt="" id="lamp">
-            <p>P.S. Clique duas vezes na lâmpada para quebrá-la</p>
+            <img src="./img/desligada.jpg" alt="" id="lamp">
+            <p id="orientacao">P.S. Clique duas vezes na lâmpada para quebrá-la</p>
         </div>
 
         <div class="buttons">
-            <button id="turnOn">Ligar</button>
-            <button id="turnOff">Desligar</button>
+            <button id="turnOn">Acender</button>
+            <button id="turnOff">Apagar</button>
             <button id="fix" style="display: none;">Consertar Lâmpada</button>
         </div>
 
         <div class="none">
         </div>
     </main>
+
+
+    <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 João Pedro - Front-End. designed by <span>João Pedro</span></p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
